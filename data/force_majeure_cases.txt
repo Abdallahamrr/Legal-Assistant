@@ -1,0 +1,41 @@
+LEGAL MEMORANDUM — FORCE MAJEURE IN SUPPLY CONTRACTS
+Source: Commercial Law Review, Vol. 12 | Page: 1
+
+Force majeure clauses excuse contractual performance when extraordinary events prevent a party from fulfilling obligations. 
+Courts have interpreted these clauses narrowly, requiring that: (1) the event be unforeseeable; (2) the event be beyond the party's control; 
+(3) the event directly caused the failure to perform.
+
+COVID-19 AND FORCE MAJEURE
+Source: Commercial Law Review, Vol. 12 | Page: 2
+
+The COVID-19 pandemic has been extensively litigated as a force majeure event. In JN Contemporary Art LLC v. Phillips Auctioneers LLC 
+(S.D.N.Y. 2020), the court held that COVID-19 governmental shutdown orders constituted a 'governmental action' and thus triggered the 
+force majeure clause. The court reasoned that the clause listed 'acts of government' and pandemic-related executive orders qualified.
+
+However, in Aukema v. Chesapeake Appalachia LLC, courts noted that general economic hardship or market downturns are typically 
+insufficient to trigger force majeure. The party invoking force majeure must demonstrate that performance was objectively impossible, 
+not merely more expensive or inconvenient.
+
+FRUSTRATION OF PURPOSE DOCTRINE
+Source: Commercial Law Review, Vol. 12 | Page: 3
+
+When force majeure clauses are narrow, parties may invoke frustration of purpose. This doctrine applies when: 
+(1) a supervening event occurs after contract formation; (2) the event was unforeseeable; (3) the event destroys the 
+principal purpose of the contract; (4) the frustration is not the fault of either party.
+
+In Lloyd v. Murphy (1944), the California Supreme Court held that frustration must be 'substantial' — not merely making 
+the contract less profitable. The doctrine is narrowly applied and rarely succeeds when the contract includes a force majeure clause.
+
+GOVERNMENTAL ACTION CLAUSE INTERPRETATION
+Source: Commercial Law Review, Vol. 12 | Page: 4
+
+Clauses listing 'governmental action' or 'acts of government' are interpreted to include: executive orders, administrative regulations, 
+legislative acts, and emergency declarations. Courts in Gap Inc. v. Ponte Gadea New York LLC held that COVID-19 closure orders issued 
+by state governors constituted 'governmental action' sufficient to trigger force majeure.
+
+DAMAGES WHEN FORCE MAJEURE APPLIES
+Source: Commercial Law Review, Vol. 12 | Page: 5
+
+When force majeure is successfully invoked, the non-performing party is typically excused from liability for damages. 
+The buyer (Alpha Corp) would not be entitled to cover damages, lost profits, or consequential damages during the force majeure period. 
+However, if performance becomes permanently impossible, either party may terminate the contract without penalty.

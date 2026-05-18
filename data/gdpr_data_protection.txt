@@ -1,0 +1,48 @@
+GDPR COMPLIANCE GUIDE — DATA PROCESSORS AND SECURITY OBLIGATIONS
+Source: EU Data Protection Handbook | Page: 1
+
+GDPR ARTICLE 4 — DATA PROCESSOR DEFINITION
+A 'data processor' means a natural or legal person, public authority, agency, or other body which processes personal data 
+on behalf of the controller. A 'joint controller' exists when two or more controllers jointly determine the purposes and 
+means of processing (Article 26).
+
+A cloud vendor operating under a Data Processing Agreement (DPA) is typically a data processor, not a joint controller, 
+unless it independently determines the purposes of processing. Under the standard DPA arrangement described, 
+the cloud vendor would be classified as a data processor.
+
+GDPR ARTICLE 32 — SECURITY OF PROCESSING
+Source: EU Data Protection Handbook | Page: 2
+
+Article 32 requires controllers and processors to implement 'appropriate technical and organisational measures' to ensure 
+security appropriate to the risk, including:
+(a) Pseudonymisation and encryption of personal data;
+(b) Ongoing confidentiality, integrity, availability, and resilience of systems;
+(c) Ability to restore data after incidents;
+(d) Process for regularly testing security measures.
+
+The term 'industry-standard security measures' in a DPA is ambiguous and may not satisfy Article 32's specificity requirements. 
+Supervisory authorities (e.g., Ireland's DPC, UK's ICO) have ruled that vague security language does not meet Article 32 requirements. 
+Encryption should be explicitly specified.
+
+GDPR ARTICLE 83 — ADMINISTRATIVE FINES
+Source: EU Data Protection Handbook | Page: 3
+
+Article 83(4) imposes fines up to €10 million or 2% of global annual turnover (whichever is higher) for processor violations.
+Article 83(5) imposes fines up to €20 million or 4% of global annual turnover for more serious infringements including 
+violations of basic processing principles and data subject rights.
+
+A breach exposing 500,000 records would likely be assessed under Article 83(5), with fines up to €20M or 4% of global turnover.
+
+LIABILITY CAPS IN DPAs
+Source: EU Data Protection Handbook | Page: 4
+
+Contractual liability caps between controller and processor do not affect supervisory authority fines. 
+However, they may limit the controller's ability to seek indemnification from the processor for damages paid to data subjects. 
+Whether a liability cap applies depends on whether the processor's negligence contributed to the breach.
+
+DATA BREACH NOTIFICATION
+Source: EU Data Protection Handbook | Page: 5
+
+Article 33 requires notification to supervisory authority within 72 hours of becoming aware of a personal data breach. 
+Article 34 requires notification to data subjects when the breach is likely to result in high risk to their rights and freedoms. 
+Failure to notify is a separate GDPR violation subject to additional fines.

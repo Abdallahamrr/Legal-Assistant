@@ -1,0 +1,44 @@
+CALIFORNIA EMPLOYMENT LAW — NON-COMPETE AND IP ASSIGNMENTS
+Source: California Employment Law Handbook | Page: 1
+
+CALIFORNIA BUSINESS AND PROFESSIONS CODE SECTION 16600
+California Business and Professions Code § 16600 provides: 'Except as provided in this chapter, every contract by which anyone 
+is restrained from engaging in a lawful profession, trade, or business of any kind is to that extent void.'
+
+This statute is among the strongest anti-non-compete laws in the United States. In Edwards v. Arthur Andersen LLP (2008), 
+the California Supreme Court held that § 16600 bans non-compete agreements broadly, rejecting the 'narrow restraint' exception 
+previously recognized by lower courts. Non-compete clauses are void and unenforceable in California regardless of consideration.
+
+CHOICE OF LAW AND CALIFORNIA PUBLIC POLICY
+Source: California Employment Law Handbook | Page: 2
+
+Even when an employment agreement contains a choice-of-law clause selecting another state's law, California courts will 
+apply California law to non-compete disputes involving California employees. In Application Group Inc. v. Hunter Group Inc., 
+the court held that California has a 'strong public policy' against non-competes that overrides foreign choice-of-law provisions.
+
+A Texas choice-of-law provision would not override California § 16600 protections for a California-based employee. 
+The employee's right to work freely is a fundamental California public policy interest.
+
+CALIFORNIA LABOR CODE §§ 2870-2872 — EMPLOYEE INVENTIONS
+Source: California Employment Law Handbook | Page: 3
+
+California Labor Code § 2870 limits employer IP assignment clauses. Employers CANNOT claim ownership of inventions that:
+(1) Do not relate to the employer's business or anticipated R&D;
+(2) Do not result from work performed for the employer;
+(3) Are developed entirely on the employee's own time with own equipment and resources.
+
+All four conditions must be met for the § 2870 carve-out to apply. If an employee develops an ML algorithm on a personal laptop 
+during evenings, unrelated to employer's business, using no employer resources, the invention belongs to the employee.
+
+IP ASSIGNMENT CLAUSE OVERBREADTH
+Source: California Employment Law Handbook | Page: 4
+
+An IP assignment clause that purports to assign 'all inventions conceived during employment' without the § 2870 carve-out 
+is overbroad and void to that extent under California law. Employers must include statutory carve-out language. 
+Courts will sever overbroad provisions rather than enforce them entirely.
+
+INJUNCTIVE RELIEF FOR NON-COMPETE VIOLATIONS
+Source: California Employment Law Handbook | Page: 5
+
+Since non-competes are void in California, no injunctive relief is available to enforce them. 
+AB 2276 (2023) further strengthened protections by imposing penalties on employers who attempt to enforce void non-competes.

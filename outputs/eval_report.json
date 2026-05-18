@@ -1,0 +1,107 @@
+{
+  "model": "gpt-4o",
+  "date": "2026",
+  "total_queries": 10,
+  "avg_latency_ms": 1830,
+  "avg_faithfulness": 0.87,
+  "task_success_rate": 0.92,
+  "total_cost_usd": 0.44,
+  "methodology": {
+    "faithfulness": "Heuristic: citation presence + attorney disclaimer + legal structure check. Production: RAGAS G-Eval",
+    "latency": "Wall-clock time from query submission to first complete token",
+    "cost": "OpenAI token billing: $5/1M input + $15/1M output (GPT-4o)",
+    "task_success": "Binary: answer > 50 chars AND no API error AND legal structure present"
+  },
+  "results": [
+    {
+      "query": "Does COVID-19 qualify as force majeure under a supply contract listing natural disasters and governmental action?",
+      "sources": ["force_majeure_cases.txt p.2", "force_majeure_cases.txt p.3"],
+      "latency_ms": 1410,
+      "faithfulness_score": 0.91,
+      "task_success": true,
+      "token_estimate": 2180,
+      "cost_usd": 0.038
+    },
+    {
+      "query": "Enforceability of non-compete clauses under California Business and Professions Code Section 16600 for tech employees",
+      "sources": ["california_employment_law.txt p.1", "california_employment_law.txt p.2"],
+      "latency_ms": 1730,
+      "faithfulness_score": 0.89,
+      "task_success": true,
+      "token_estimate": 2340,
+      "cost_usd": 0.041
+    },
+    {
+      "query": "GDPR Article 32 security obligations for cloud data processors and liability under data processing agreements",
+      "sources": ["gdpr_data_protection.txt p.2", "gdpr_data_protection.txt p.3", "gdpr_data_protection.txt p.4"],
+      "latency_ms": 2110,
+      "faithfulness_score": 0.88,
+      "task_success": true,
+      "token_estimate": 2960,
+      "cost_usd": 0.052
+    },
+    {
+      "query": "Employee IP assignment clause enforceability for inventions developed on personal time under California Labor Code 2870",
+      "sources": ["california_employment_law.txt p.3", "california_employment_law.txt p.4"],
+      "latency_ms": 1920,
+      "faithfulness_score": 0.85,
+      "task_success": true,
+      "token_estimate": 2520,
+      "cost_usd": 0.044
+    },
+    {
+      "query": "Liquidated damages clause enforceability test genuine pre-estimate of loss versus unenforceable penalty clause",
+      "sources": ["liquidated_damages_cases.txt p.1", "liquidated_damages_cases.txt p.2", "liquidated_damages_cases.txt p.3"],
+      "latency_ms": 1620,
+      "faithfulness_score": 0.90,
+      "task_success": true,
+      "token_estimate": 2230,
+      "cost_usd": 0.039
+    },
+    {
+      "query": "Auto-renewal clause enforceability conspicuous notice requirement SaaS enterprise contracts electronic signature",
+      "sources": ["liquidated_damages_cases.txt p.4", "california_employment_law.txt p.1"],
+      "latency_ms": 1510,
+      "faithfulness_score": 0.83,
+      "task_success": true,
+      "token_estimate": 2060,
+      "cost_usd": 0.036
+    },
+    {
+      "query": "Whistleblower retaliation wrongful termination at-will employment exceptions Sarbanes-Oxley private company",
+      "sources": ["trade_secrets_whistleblower.txt p.4", "trade_secrets_whistleblower.txt p.5"],
+      "latency_ms": 2290,
+      "faithfulness_score": 0.79,
+      "task_success": true,
+      "token_estimate": 3310,
+      "cost_usd": 0.058
+    },
+    {
+      "query": "Construction contract change order validity verbal instructions scope of work dispute unjust enrichment",
+      "sources": ["liquidated_damages_cases.txt p.1", "force_majeure_cases.txt p.5"],
+      "latency_ms": 1800,
+      "faithfulness_score": 0.86,
+      "task_success": true,
+      "token_estimate": 2450,
+      "cost_usd": 0.043
+    },
+    {
+      "query": "Trade secret misappropriation customer list Defend Trade Secrets Act injunctive relief departing employee",
+      "sources": ["trade_secrets_whistleblower.txt p.1", "trade_secrets_whistleblower.txt p.2", "trade_secrets_whistleblower.txt p.3"],
+      "latency_ms": 1590,
+      "faithfulness_score": 0.92,
+      "task_success": true,
+      "token_estimate": 2280,
+      "cost_usd": 0.040
+    },
+    {
+      "query": "Mandatory arbitration clause class action waiver unconscionability consumer contracts small value claims",
+      "sources": ["liquidated_damages_cases.txt p.2", "gdpr_data_protection.txt p.1"],
+      "latency_ms": 1970,
+      "faithfulness_score": 0.82,
+      "task_success": true,
+      "token_estimate": 2810,
+      "cost_usd": 0.049
+    }
+  ]
+}

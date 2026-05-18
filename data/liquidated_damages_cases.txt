@@ -1,0 +1,35 @@
+LIQUIDATED DAMAGES VS PENALTY CLAUSES — COMPARATIVE ANALYSIS
+Source: Contract Law Quarterly | Page: 1
+
+ENGLISH LAW — CAVENDISH SQUARE TEST
+In Cavendish Square Holding BV v. Makdessi [2015] UKSC 67, the UK Supreme Court reformulated the penalty clause rule. 
+The test is whether the clause imposes a detriment on the contract breaker 'out of all proportion' to any legitimate interest 
+of the innocent party in the enforcement of the primary obligation. This replaced the older 'genuine pre-estimate of loss' test 
+from Dunlop Pneumatic Tyre Co v. New Garage & Motor Co [1915].
+
+AMERICAN LAW — UNIFORM COMMERCIAL CODE
+Source: Contract Law Quarterly | Page: 2
+
+Under UCC § 2-718 and common law, a liquidated damages clause is enforceable if:
+(1) Actual damages were difficult to estimate at the time of contracting; AND
+(2) The stipulated amount is a reasonable forecast of compensatory damages.
+
+If either condition fails, the clause is an unenforceable penalty. Courts look to whether the clause represents a 
+good-faith attempt to anticipate loss, not a punishment for breach.
+
+$50/PACKAGE/DAY ANALYSIS
+Source: Contract Law Quarterly | Page: 3
+
+For the e-commerce hypothetical ($50/package/day during peak holiday season), enforceability depends on:
+- Whether lost holiday sales were genuinely difficult to calculate at contracting (likely yes — dependent on consumer behavior)
+- Whether $50/day represents a reasonable estimate of actual loss (lost sale, customer goodwill, reputational damage)
+
+Courts have enforced per-unit, per-day delay damages in logistics contracts when the commercial context justifies them. 
+See UPS Supply Chain Solutions v. Megatrux Transportation.
+
+ACTUAL DAMAGES MITIGATION
+Source: Contract Law Quarterly | Page: 4
+
+Even if liquidated damages are upheld, the non-breaching party has a duty to mitigate. If the platform could have sourced 
+alternative logistics for 8,000 packages and failed to do so, courts may reduce the award. 
+The $2,000,000 total must be weighed against whether mitigation was attempted.
