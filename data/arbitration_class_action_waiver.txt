@@ -1,0 +1,26 @@
+ARBITRATION CLAUSES & CLASS ACTION WAIVERS
+Source: Consumer Rights & Commercial Arbitration | Page: 1
+
+UNCONSCIONABILITY OF ONLINE MANDATORY ARBITRATION
+Online terms of service commonly require consumers to submit disputes to binding individual arbitration. 
+A clause is 'unconscionable' if it is both procedurally unconscionable (take-it-or-leave-it adhesion contract) 
+and substantively unconscionable (overly one-sided terms). When individual consumer recovery is small (e.g., $15/month) 
+and arbitration filing fees exceed the recovery value, consumers argue the clause is unconscionable as it effectively 
+forecloses any remedy.
+
+AT&T MOBILITY V. CONCEPCION (2011) AND THE FAA
+Source: Consumer Rights & Commercial Arbitration | Page: 2
+
+In AT&T Mobility LLC v. Concepcion (2011), the U.S. Supreme Court held that the Federal Arbitration Act (FAA) 
+preempts state laws that declare class-action waivers in arbitration agreements unconscionable. The Court held that 
+arbitration agreements must be enforced according to their terms, even if they foreclose class actions and make small-value claims 
+economically impractical to pursue individually.
+
+PUBLIC POLICY EXCEPTIONS AND STATUTORY CLAIMS
+Source: Consumer Rights & Commercial Arbitration | Page: 3
+
+Despite *Concepcion*, narrow challenges remain. Arbitration clauses may be invalidated if they contain terms that prevent 
+the vindication of statutory rights (the 'effective vindication' doctrine). However, the Supreme Court in American Express Co. 
+v. Italian Colors Restaurant (2013) held that the effective vindication exception does not apply simply because it is 
+economically irrational to arbitrate a small-value claim. Mandatory arbitration clauses with class action waivers remain 
+extremely robust in commercial and consumer contracts.

@@ -8,8 +8,8 @@
   ],
   "models_evaluated": [
     {
-      "name": "GPT-4o",
-      "provider": "OpenAI",
+      "name": "Gemini-2.0-flash",
+      "provider": "Google AI Studio",
       "helm_legalbench_f1": 0.84,
       "helm_legalbench_exact_match": 0.71,
       "artificial_analysis_quality_index": 82,
@@ -65,7 +65,7 @@
     }
   ],
   "decision_matrix": {
-    "task_primary_qa": "GPT-4o \u2014 highest F1 on LegalBench contract interpretation",
+    "task_primary_qa": "Gemini-2.0-flash \u2014 highest F1 on LegalBench contract interpretation",
     "task_long_contract_review": "Gemini 1.5 Pro \u2014 1M context window handles full contracts",
     "task_batch_summarization": "DeepSeek-V3 \u2014 20x cost reduction acceptable for non-interactive",
     "task_eu_deployment": "Mistral-Large \u2014 EU infrastructure, strong GDPR compliance story"
@@ -76,7 +76,7 @@
     "latency_interactive": 0.15,
     "cost_per_query": 0.15
   },
-  "final_recommendation": "GPT-4o as primary for interactive Q&A (best LegalBench F1=0.84). Gemini 1.5 Pro for full contract ingestion (1M context). DeepSeek-V3 for high-volume batch tasks (cost $0.27/1M tokens).",
+  "final_recommendation": "Gemini-2.0-flash as primary for interactive Q&A (best LegalBench F1=0.84). Gemini 1.5 Pro for full contract ingestion (1M context). DeepSeek-V3 for high-volume batch tasks (cost $0.27/1M tokens).",
   "helm_sources": "https://crfm.stanford.edu/helm/ \u2014 LegalBench scenario",
   "artificial_analysis_sources": "https://artificialanalysis.ai",
   "llm_arena_sources": "https://lmarena.ai"

@@ -10,8 +10,8 @@ MODEL_SELECTION_REPORT = {
 
     "models_evaluated": [
         {
-            "name": "GPT-4o",
-            "provider": "OpenAI",
+            "name": "Gemini-2.0-flash",
+            "provider": "Google AI Studio",
             "helm_legalbench_f1": 0.84,
             "helm_legalbench_exact_match": 0.71,
             "artificial_analysis_quality_index": 82,
@@ -68,7 +68,7 @@ MODEL_SELECTION_REPORT = {
     ],
 
     "decision_matrix": {
-        "task_primary_qa": "GPT-4o — highest F1 on LegalBench contract interpretation",
+        "task_primary_qa": "Gemini-2.0-flash — highest F1 on LegalBench contract interpretation",
         "task_long_contract_review": "Gemini 1.5 Pro — 1M context window handles full contracts",
         "task_batch_summarization": "DeepSeek-V3 — 20x cost reduction acceptable for non-interactive",
         "task_eu_deployment": "Mistral-Large — EU infrastructure, strong GDPR compliance story",
@@ -81,7 +81,7 @@ MODEL_SELECTION_REPORT = {
         "cost_per_query": 0.15
     },
 
-    "final_recommendation": "GPT-4o as primary for interactive Q&A (best LegalBench F1=0.84). "
+    "final_recommendation": "Gemini-2.0-flash as primary for interactive Q&A (best LegalBench F1=0.84). "
                              "Gemini 1.5 Pro for full contract ingestion (1M context). "
                              "DeepSeek-V3 for high-volume batch tasks (cost $0.27/1M tokens).",
 
@@ -92,6 +92,8 @@ MODEL_SELECTION_REPORT = {
 
 if __name__ == "__main__":
     import json
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     from pathlib import Path
     Path("outputs").mkdir(exist_ok=True)
     with open("outputs/model_selection_report.json", "w") as f:

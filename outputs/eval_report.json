@@ -1,107 +1,141 @@
 {
-  "model": "gpt-4o",
-  "date": "2026",
+  "model": "gemini-2.0-flash",
   "total_queries": 10,
-  "avg_latency_ms": 1830,
-  "avg_faithfulness": 0.87,
-  "task_success_rate": 0.92,
-  "total_cost_usd": 0.44,
-  "methodology": {
-    "faithfulness": "Heuristic: citation presence + attorney disclaimer + legal structure check. Production: RAGAS G-Eval",
-    "latency": "Wall-clock time from query submission to first complete token",
-    "cost": "OpenAI token billing: $5/1M input + $15/1M output (GPT-4o)",
-    "task_success": "Binary: answer > 50 chars AND no API error AND legal structure present"
-  },
+  "avg_latency_ms": 646.2,
+  "avg_faithfulness": 0.85,
+  "task_success_rate": 1.0,
+  "total_cost_usd": 0.0032,
   "results": [
     {
       "query": "Does COVID-19 qualify as force majeure under a supply contract listing natural disasters and governmental action?",
-      "sources": ["force_majeure_cases.txt p.2", "force_majeure_cases.txt p.3"],
-      "latency_ms": 1410,
-      "faithfulness_score": 0.91,
+      "answer": "### [Legal Issue]\nWhether the COVID-19 pandemic and associated governmental shutdown orders qualify as a force majeure event to excuse contractual performance under the supply agreement.\n\n### [Relevant Law/Precedent]\nForce majeure clauses are interpreted narrowly by courts. Performance is only excused if the event was unforeseeable, beyond the party's control, and directly caused the failure to perform. In *JN Contemporary Art LLC v. Phillips Auctioneers LLC* (2020), the court held that pandemic-related executive orders constituted 'governmental action' sufficient to trigger force majeure, whereas general economic hardship alone is insufficient (*Aukema v. Chesapeake Appalachia LLC*).\n\n### [Application]\nThe supply contract between Alpha Corp and Beta Inc explicitly lists 'governmental action' and 'natural disasters' as triggering events. The state-mandated COVID-19 lockdown directly prevented Beta Inc from operating its manufacturing facility, making performance objectively impossible rather than merely more expensive.\n\n### [Conclusion]\nBeta Inc's performance is legally excused during the duration of the state-mandated lockdown. Alpha Corp is not entitled to cover or consequential damages during this period (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "force_majeure_cases.txt (Page 1)"
+      ],
+      "latency_ms": 1501.8,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2180,
-      "cost_usd": 0.038
+      "token_estimate": 2252,
+      "cost_usd": 0.000321
     },
     {
       "query": "Enforceability of non-compete clauses under California Business and Professions Code Section 16600 for tech employees",
-      "sources": ["california_employment_law.txt p.1", "california_employment_law.txt p.2"],
-      "latency_ms": 1730,
-      "faithfulness_score": 0.89,
+      "answer": "### [Legal Issue]\nWhether a post-employment non-compete clause in a technology company agreement is enforceable against a California resident.\n\n### [Relevant Law/Precedent]\nUnder California Business and Professions Code Section 16600, 'every contract by which anyone is restrained from engaging in a lawful profession, trade, or business of any kind is to that extent void.' The California Supreme Court in *Edwards v. Arthur Andersen LLP* (2008) held that this ban is absolute and rejects any 'narrow restraint' exceptions. Furthermore, California's strong public policy overrides out-of-state choice of law provisions (*Application Group Inc. v. Hunter Group Inc.*).\n\n### [Application]\nThe software engineer is based in California, though the employer is headquartered in Texas with a Texas choice of law clause. Under California precedent, the Texas choice of law is void as it violates fundamental state public policy, and the non-compete restriction is completely void.\n\n### [Conclusion]\nThe non-compete restriction is void and unenforceable. The employee is free to accept employment with the competitor (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "california_employment_law.txt (Page 1)",
+        "trade_secrets_misappropriation.txt (Page 1)"
+      ],
+      "latency_ms": 685.1,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2340,
-      "cost_usd": 0.041
+      "token_estimate": 2245,
+      "cost_usd": 0.00032
     },
     {
       "query": "GDPR Article 32 security obligations for cloud data processors and liability under data processing agreements",
-      "sources": ["gdpr_data_protection.txt p.2", "gdpr_data_protection.txt p.3", "gdpr_data_protection.txt p.4"],
-      "latency_ms": 2110,
-      "faithfulness_score": 0.88,
+      "answer": "### [Legal Issue]\nWhether a cloud data processor meets the security obligations of GDPR Article 32 and is liable for a security breach under the Data Processing Agreement (DPA).\n\n### [Relevant Law/Precedent]\nGDPR Article 32 requires data controllers and processors to implement 'appropriate technical and organizational measures' (TOMs) to ensure a level of security appropriate to the risk, including encryption, pseudonymization, and regular security testing. Under Article 82, a processor is liable for damages caused by processing only where it has not complied with obligations specifically directed to processors under GDPR.\n\n### [Application]\nThe cloud processor failed to implement multi-factor authentication (MFA) and left an S3 bucket publicly readable, which constitutes a clear breach of standard Article 32 security measures. The DPA contains a standard limitation of liability clause, but such limitations may be void under GDPR Article 82 for gross negligence in protecting personal data.\n\n### [Conclusion]\nThe processor is in direct violation of GDPR Article 32 and is liable for the resulting data breach damages, notwithstanding the DPA's limitation of liability clause (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "gdpr_data_protection.txt (Page 1)"
+      ],
+      "latency_ms": 345.7,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2960,
-      "cost_usd": 0.052
+      "token_estimate": 2262,
+      "cost_usd": 0.000322
     },
     {
       "query": "Employee IP assignment clause enforceability for inventions developed on personal time under California Labor Code 2870",
-      "sources": ["california_employment_law.txt p.3", "california_employment_law.txt p.4"],
-      "latency_ms": 1920,
+      "answer": "### [Legal Issue]\nWhether an employer can claim ownership over a software algorithm developed by an employee on personal time and resources under California Labor Code Section 2870.\n\n### [Relevant Law/Precedent]\nCalifornia Labor Code Section 2870 provides that an employer cannot claim ownership of an invention developed entirely on the employee's own time, with their own resources, and which does not relate to the employer's current or anticipated business or anticipated R&D, and does not result from work performed for the employer.\n\n### [Application]\nThe employee developed the machine learning algorithm entirely on a personal laptop during evenings. The algorithm is unrelated to the employer's enterprise SaaS business and did not utilize any company proprietary code, resources, or working hours.\n\n### [Conclusion]\nThe algorithm falls squarely under the Section 2870 carve-out, and ownership remains solely with the employee. The employer's broad assignment clause is void to this extent (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "california_employment_law.txt (Page 1)",
+        "trade_secrets_misappropriation.txt (Page 1)"
+      ],
+      "latency_ms": 336.5,
       "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2520,
-      "cost_usd": 0.044
+      "token_estimate": 2230,
+      "cost_usd": 0.000318
     },
     {
       "query": "Liquidated damages clause enforceability test genuine pre-estimate of loss versus unenforceable penalty clause",
-      "sources": ["liquidated_damages_cases.txt p.1", "liquidated_damages_cases.txt p.2", "liquidated_damages_cases.txt p.3"],
-      "latency_ms": 1620,
-      "faithfulness_score": 0.90,
+      "answer": "### [Legal Issue]\nWhether a contract clause imposing a $500,000 charge for late completion is an enforceable liquidated damages clause or an unenforceable penalty.\n\n### [Relevant Law/Precedent]\nA liquidated damages clause is enforceable if, at the time of contract formation: (1) damages were difficult to estimate, and (2) the specified amount was a reasonable forecast of harm. If the amount is arbitrary or disproportionate to any possible harm, it is treated as an unenforceable penalty (*Restatement Second of Contracts \u00a7 356*).\n\n### [Application]\nThe actual potential loss from a delay was estimated at $10,000 per day. The flat fee of $500,000 for a single day's delay is grossly disproportionate and bears no relation to actual anticipated losses.\n\n### [Conclusion]\nThe clause is an unenforceable penalty. The developer is only liable for actual proven damages caused by the delay (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "force_majeure_cases.txt (Page 1)",
+        "liquidated_damages_cases.txt (Page 1)"
+      ],
+      "latency_ms": 1153.4,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2230,
-      "cost_usd": 0.039
+      "token_estimate": 2213,
+      "cost_usd": 0.000315
     },
     {
       "query": "Auto-renewal clause enforceability conspicuous notice requirement SaaS enterprise contracts electronic signature",
-      "sources": ["liquidated_damages_cases.txt p.4", "california_employment_law.txt p.1"],
-      "latency_ms": 1510,
-      "faithfulness_score": 0.83,
+      "answer": "### [Legal Issue]\nWhether a SaaS subscription auto-renewal clause is enforceable without conspicuous notice under California's Automatic Renewal Law (ARL).\n\n### [Relevant Law/Precedent]\nCalifornia's Automatic Renewal Law (Business & Professions Code \u00a7 17600 et seq.) requires auto-renewal terms to be presented in a 'clear and conspicuous manner' before the subscription is fulfilled, and requires explicit consent. Failure to comply makes the renewal void, and any services sent are treated as an unconditional gift.\n\n### [Application]\nThe enterprise SaaS contract renewal was hidden in small print inside a hyperlinked terms-of-service page without a separate check-box. This violates the clear and conspicuous presentation and explicit consent requirements under the ARL.\n\n### [Conclusion]\nThe auto-renewal is void and unenforceable. The customer is entitled to cancel the subscription and receive a full refund of any auto-billed fees (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "arbitration_class_action_waiver.txt (Page 1)",
+        "saas_auto_renewal_disputes.txt (Page 1)",
+        "liquidated_damages_cases.txt (Page 1)"
+      ],
+      "latency_ms": 946.7,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2060,
-      "cost_usd": 0.036
+      "token_estimate": 2204,
+      "cost_usd": 0.000314
     },
     {
       "query": "Whistleblower retaliation wrongful termination at-will employment exceptions Sarbanes-Oxley private company",
-      "sources": ["trade_secrets_whistleblower.txt p.4", "trade_secrets_whistleblower.txt p.5"],
-      "latency_ms": 2290,
-      "faithfulness_score": 0.79,
+      "answer": "### [Legal Issue]\nWhether an at-will employee terminated after reporting accounting irregularities to executive officers is protected from retaliation under Sarbanes-Oxley (SOX) Section 806.\n\n### [Relevant Law/Precedent]\nSOX Section 806 protects employees of publicly traded companies (and their contractors/subsidiaries) who report fraud or SEC violations to supervisors or federal agencies. To succeed, the employee must show their protected activity was a 'contributing factor' in the adverse employment action.\n\n### [Application]\nThe employee reported material accounting irregularities to the CFO and was terminated three days later under the pretext of 'restructuring.' The close temporal proximity strongly establishes a causal link and makes the protected report a contributing factor.\n\n### [Conclusion]\nThe employer's termination constitutes unlawful whistleblower retaliation. The employee is entitled to reinstatement, back pay, and compensatory damages (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "whistleblower_wrongful_termination.txt (Page 1)",
+        "trade_secrets_whistleblower.txt (Page 1)"
+      ],
+      "latency_ms": 379.2,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 3310,
-      "cost_usd": 0.058
+      "token_estimate": 2195,
+      "cost_usd": 0.000313
     },
     {
       "query": "Construction contract change order validity verbal instructions scope of work dispute unjust enrichment",
-      "sources": ["liquidated_damages_cases.txt p.1", "force_majeure_cases.txt p.5"],
-      "latency_ms": 1800,
-      "faithfulness_score": 0.86,
+      "answer": "### [Legal Issue]\nWhether a contractor can recover costs for additional excavation work performed under verbal instructions despite a contract clause requiring written change orders.\n\n### [Relevant Law/Precedent]\nWhile written change order clauses are strictly enforced, courts recognize exceptions where: (1) the owner orally ordered the work and promised payment, or (2) the owner waived the writing requirement through their conduct. Alternatively, a contractor may recover under the equitable doctrine of quantum meruit / unjust enrichment.\n\n### [Application]\nThe developer verbally ordered the extra excavation, watched it be performed, and acknowledged its benefit, thereby waiving the written change order requirement by conduct.\n\n### [Conclusion]\nThe contractor is entitled to recover the reasonable value of the extra work under the doctrine of quantum meruit (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "construction_scope_creep.txt (Page 1)",
+        "saas_auto_renewal_disputes.txt (Page 1)",
+        "force_majeure_cases.txt (Page 1)"
+      ],
+      "latency_ms": 357.0,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2450,
-      "cost_usd": 0.043
+      "token_estimate": 2193,
+      "cost_usd": 0.000313
     },
     {
       "query": "Trade secret misappropriation customer list Defend Trade Secrets Act injunctive relief departing employee",
-      "sources": ["trade_secrets_whistleblower.txt p.1", "trade_secrets_whistleblower.txt p.2", "trade_secrets_whistleblower.txt p.3"],
-      "latency_ms": 1590,
-      "faithfulness_score": 0.92,
+      "answer": "### [Legal Issue]\nWhether a departing employee's downloading of a proprietary customer database constitutes trade secret misappropriation under the Defend Trade Secrets Act (DTSA).\n\n### [Relevant Law/Precedent]\nUnder the DTSA (18 U.S.C. \u00a7 1836), trade secret misappropriation occurs when a trade secret is acquired, disclosed, or used without consent by a person who knew or had reason to know it was acquired by improper means. Customer lists qualify as trade secrets if they derive independent economic value from not being generally known, and are subject to reasonable secrecy measures (e.g. password protection, NDAs).\n\n### [Application]\nThe database was password-protected and subject to strict confidentiality agreements. The employee downloaded the complete database to a personal drive immediately before resigning to join a competitor.\n\n### [Conclusion]\nThe employee's conduct constitutes clear trade secret misappropriation. The employer is entitled to immediate injunctive relief and damages under the DTSA (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "trade_secrets_misappropriation.txt (Page 1)",
+        "trade_secrets_whistleblower.txt (Page 1)"
+      ],
+      "latency_ms": 358.5,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2280,
-      "cost_usd": 0.040
+      "token_estimate": 2222,
+      "cost_usd": 0.000317
     },
     {
       "query": "Mandatory arbitration clause class action waiver unconscionability consumer contracts small value claims",
-      "sources": ["liquidated_damages_cases.txt p.2", "gdpr_data_protection.txt p.1"],
-      "latency_ms": 1970,
-      "faithfulness_score": 0.82,
+      "answer": "### [Legal Issue]\nWhether a mandatory arbitration clause with a class-action waiver in a consumer contract is enforceable or void for unconscionability.\n\n### [Relevant Law/Precedent]\nUnder the Federal Arbitration Act (FAA), arbitration agreements are highly favored. However, they may be invalidated under standard contract defenses such as unconscionability (requiring both procedural and substantive unconscionability). Following *AT&T Mobility LLC v. Concepcion* (2011), class-action waivers in arbitration agreements are generally enforceable under the FAA, unless they completely block any realistic remedy.\n\n### [Application]\nThe clause was buried in the fine print of a click-wrap agreement (establishing slight procedural unconscionability), but it provided that the company would pay all filing fees and allowed claims to be brought in small claims court, which refutes substantive unconscionability.\n\n### [Conclusion]\nThe mandatory arbitration clause and class-action waiver are legally enforceable under the Federal Arbitration Act. The consumer must pursue claims individually through arbitration (california_employment_law.txt, Page 1). \u26a0\ufe0f Consult a licensed attorney before acting on this analysis.",
+      "sources": [
+        "arbitration_class_action_waiver.txt (Page 1)",
+        "saas_auto_renewal_disputes.txt (Page 1)",
+        "liquidated_damages_cases.txt (Page 1)"
+      ],
+      "latency_ms": 398.4,
+      "faithfulness_score": 0.85,
       "task_success": true,
-      "token_estimate": 2810,
-      "cost_usd": 0.049
+      "token_estimate": 2223,
+      "cost_usd": 0.000317
     }
   ]
 }

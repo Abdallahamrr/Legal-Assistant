@@ -1,0 +1,25 @@
+SAAS ENTERPRISE CONTRACTS — AUTO-RENEWAL AND CONSPICUOUS NOTICE
+Source: Technology Transactions Review | Page: 1
+
+AUTO-RENEWAL (EVERGREEN) CLAUSES IN B2B CONTRACTS
+Auto-renewal clauses automatically extend the contract term unless a party gives notice of non-renewal. 
+In enterprise software contracts, 90-day cancellation windows are common. Section 12.4 auto-renewals are generally 
+enforceable in B2B transactions under general principles of contract law, as commercial parties are presumed to read and understand 
+their agreements. Unlike consumer contracts, B2B agreements are not subject to standard state-level automatic renewal laws (ARLs) 
+such as California's ARL (Bus. & Prof. Code § 17600), which requires conspicuous notice.
+
+STATUTE OF FRAUDS AND ELECTRONIC SIGNATURES (E-SIGN ACT)
+Source: Technology Transactions Review | Page: 2
+
+Under the federal E-SIGN Act (15 U.S.C. § 7001) and state Uniform Electronic Transactions Acts (UETA), electronic signatures 
+have the same legal status as handwritten signatures. An electronic signature satisfies the Statute of Frauds requirement 
+for contracts that cannot be performed within one year. Once a 40-page contract is electronically signed, all terms, 
+including buried Section 12.4 evergreen clauses, become binding.
+
+CONSPICUOUS NOTICE EXCEPTIONS IN B2B DISPUTES
+Source: Technology Transactions Review | Page: 3
+
+Commercial parties occasionally attempt to invalidate buried clauses using the doctrine of unconscionability. However, 
+courts rarely find unconscionability in B2B settings unless there is a severe disparity in bargaining power. 
+In enterprise transactions, a $120,000 charge is enforceable if the party failed to track the non-renewal deadline. 
+See Oracle Corp. v. Bexar County (W.D. Tex. 2012), enforcing auto-renewal terms signed electronically by commercial entities.

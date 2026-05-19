@@ -1,0 +1,24 @@
+CONSTRUCTION LAW — FIXED PRICE CONTRACTS AND CHANGE ORDERS
+Source: Construction Jurisprudence | Page: 1
+
+VALIDITY OF CHANGE ORDERS UNDER AIA DOCUMENT A201
+Under standard American Institute of Architects (AIA) Document A201 General Conditions, a valid Change Order requires 
+written agreement signed by the Owner, Contractor, and Architect. The document must describe the work added, 
+the adjustment to the contract sum, and the adjustment to the contract time. 
+
+VERBAL INSTRUCTIONS AND WAIVER CLAUSES
+Source: Construction Jurisprudence | Page: 2
+
+Most fixed-price construction contracts contain a clause stating that no changes are valid unless approved in writing. 
+However, courts may find that the owner 'waived' the written change order requirement by: 
+(1) verbally ordering the changes; (2) observing the contractor perform the extra work without objection; 
+(3) verbally promising to pay for the changes. Under the doctrine of promissory estoppel or course of performance, 
+a contractor can recover $1.2M for verbally ordered work if they can prove owner authorization.
+
+UNJUST ENRICHMENT (QUANTUM MERUIT)
+Source: Construction Jurisprudence | Page: 3
+
+If a contract's change order clauses are strictly enforced against the contractor, the contractor may seek recovery under 
+quantum meruit (unjust enrichment). This quasi-contractual remedy allows recovery of the reasonable value of services rendered 
+to prevent the owner from receiving a windfall. The contractor must prove that the owner requested and accepted the benefits 
+of the 23 change orders, and that it would be inequitable for the owner to retain them without payment.

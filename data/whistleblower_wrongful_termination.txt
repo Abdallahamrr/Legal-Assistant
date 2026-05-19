@@ -1,0 +1,25 @@
+WHISTLEBLOWING & AT-WILL EMPLOYMENT EXCEPTIONS
+Source: Employment Litigation Journal | Page: 1
+
+AT-WILL EMPLOYMENT DOCTRINE & RETALIATION
+At-will employment allows employers to terminate employees at any time for any legal reason. However, 
+courts recognize a significant exception for public policy violations (the Tameny doctrine in California). 
+An employer cannot terminate an employee in retaliation for: (1) refusing to violate a statute; (2) performing a statutory obligation; 
+(3) reporting a statutory violation (whistleblowing) to a CEO or government agency.
+
+FABRICATED PERFORMANCE IMPROVEMENT PLANS (PIPs)
+Source: Employment Litigation Journal | Page: 2
+
+In wrongful termination cases, employers often cite a Performance Improvement Plan (PIP) as a legitimate, non-retaliatory 
+reason for discharge. To succeed, the employee must show that the PIP was a 'pretext' for discrimination or retaliation. 
+Evidence of pretext includes: PIP initiated immediately after reporting a safety issue, arbitrary performance metrics, 
+or positive reviews preceding the report. See Green v. Ralee Engineering Co. (1998) (safety concerns over aircraft defects).
+
+SARBANES-OXLEY AND PRIVATE COMPANIES
+Source: Employment Litigation Journal | Page: 3
+
+While Sarbanes-Oxley (SOX) Section 806 primarily protects whistleblowers at publicly traded companies, the U.S. Supreme Court 
+in Lawson v. FMR LLC (2014) held that SOX protections extend to employees of *private* contractors and subcontractors 
+of public companies. If a private company is an active contractor for a public entity, SOX protections apply. 
+However, for an independent private company, general state-level whistleblower statutes (e.g., California Labor Code § 1102.5) 
+provide similar robust protection against termination for internal safety reports.

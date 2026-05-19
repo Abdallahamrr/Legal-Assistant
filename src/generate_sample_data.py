@@ -2,6 +2,7 @@
 Generate synthetic legal case documents for testing the RAG pipeline.
 Run: python generate_sample_data.py
 This creates sample .txt files (treated as plain documents) in data/
+Now fully expanded to cover all 10 capstone case scenarios.
 """
 
 import json
@@ -240,6 +241,151 @@ Dodd-Frank Section 922 extends protections to employees who report securities vi
 the Supreme Court in Digital Realty Trust v. Somers (2018) held that Dodd-Frank protections apply ONLY to employees 
 who report externally to the SEC, not to internal reports. For a private company, SOX protections are limited; 
 Dodd-Frank does not apply unless the company is publicly traded or the employee reports to the SEC.
+"""
+    },
+    {
+        "filename": "saas_auto_renewal_disputes.txt",
+        "content": """SAAS ENTERPRISE CONTRACTS — AUTO-RENEWAL AND CONSPICUOUS NOTICE
+Source: Technology Transactions Review | Page: 1
+
+AUTO-RENEWAL (EVERGREEN) CLAUSES IN B2B CONTRACTS
+Auto-renewal clauses automatically extend the contract term unless a party gives notice of non-renewal. 
+In enterprise software contracts, 90-day cancellation windows are common. Section 12.4 auto-renewals are generally 
+enforceable in B2B transactions under general principles of contract law, as commercial parties are presumed to read and understand 
+their agreements. Unlike consumer contracts, B2B agreements are not subject to standard state-level automatic renewal laws (ARLs) 
+such as California's ARL (Bus. & Prof. Code § 17600), which requires conspicuous notice.
+
+STATUTE OF FRAUDS AND ELECTRONIC SIGNATURES (E-SIGN ACT)
+Source: Technology Transactions Review | Page: 2
+
+Under the federal E-SIGN Act (15 U.S.C. § 7001) and state Uniform Electronic Transactions Acts (UETA), electronic signatures 
+have the same legal status as handwritten signatures. An electronic signature satisfies the Statute of Frauds requirement 
+for contracts that cannot be performed within one year. Once a 40-page contract is electronically signed, all terms, 
+including buried Section 12.4 evergreen clauses, become binding.
+
+CONSPICUOUS NOTICE EXCEPTIONS IN B2B DISPUTES
+Source: Technology Transactions Review | Page: 3
+
+Commercial parties occasionally attempt to invalidate buried clauses using the doctrine of unconscionability. However, 
+courts rarely find unconscionability in B2B settings unless there is a severe disparity in bargaining power. 
+In enterprise transactions, a $120,000 charge is enforceable if the party failed to track the non-renewal deadline. 
+See Oracle Corp. v. Bexar County (W.D. Tex. 2012), enforcing auto-renewal terms signed electronically by commercial entities.
+"""
+    },
+    {
+        "filename": "whistleblower_wrongful_termination.txt",
+        "content": """WHISTLEBLOWING & AT-WILL EMPLOYMENT EXCEPTIONS
+Source: Employment Litigation Journal | Page: 1
+
+AT-WILL EMPLOYMENT DOCTRINE & RETALIATION
+At-will employment allows employers to terminate employees at any time for any legal reason. However, 
+courts recognize a significant exception for public policy violations (the Tameny doctrine in California). 
+An employer cannot terminate an employee in retaliation for: (1) refusing to violate a statute; (2) performing a statutory obligation; 
+(3) reporting a statutory violation (whistleblowing) to a CEO or government agency.
+
+FABRICATED PERFORMANCE IMPROVEMENT PLANS (PIPs)
+Source: Employment Litigation Journal | Page: 2
+
+In wrongful termination cases, employers often cite a Performance Improvement Plan (PIP) as a legitimate, non-retaliatory 
+reason for discharge. To succeed, the employee must show that the PIP was a 'pretext' for discrimination or retaliation. 
+Evidence of pretext includes: PIP initiated immediately after reporting a safety issue, arbitrary performance metrics, 
+or positive reviews preceding the report. See Green v. Ralee Engineering Co. (1998) (safety concerns over aircraft defects).
+
+SARBANES-OXLEY AND PRIVATE COMPANIES
+Source: Employment Litigation Journal | Page: 3
+
+While Sarbanes-Oxley (SOX) Section 806 primarily protects whistleblowers at publicly traded companies, the U.S. Supreme Court 
+in Lawson v. FMR LLC (2014) held that SOX protections extend to employees of *private* contractors and subcontractors 
+of public companies. If a private company is an active contractor for a public entity, SOX protections apply. 
+However, for an independent private company, general state-level whistleblower statutes (e.g., California Labor Code § 1102.5) 
+provide similar robust protection against termination for internal safety reports.
+"""
+    },
+    {
+        "filename": "construction_scope_creep.txt",
+        "content": """CONSTRUCTION LAW — FIXED PRICE CONTRACTS AND CHANGE ORDERS
+Source: Construction Jurisprudence | Page: 1
+
+VALIDITY OF CHANGE ORDERS UNDER AIA DOCUMENT A201
+Under standard American Institute of Architects (AIA) Document A201 General Conditions, a valid Change Order requires 
+written agreement signed by the Owner, Contractor, and Architect. The document must describe the work added, 
+the adjustment to the contract sum, and the adjustment to the contract time. 
+
+VERBAL INSTRUCTIONS AND WAIVER CLAUSES
+Source: Construction Jurisprudence | Page: 2
+
+Most fixed-price construction contracts contain a clause stating that no changes are valid unless approved in writing. 
+However, courts may find that the owner 'waived' the written change order requirement by: 
+(1) verbally ordering the changes; (2) observing the contractor perform the extra work without objection; 
+(3) verbally promising to pay for the changes. Under the doctrine of promissory estoppel or course of performance, 
+a contractor can recover $1.2M for verbally ordered work if they can prove owner authorization.
+
+UNJUST ENRICHMENT (QUANTUM MERUIT)
+Source: Construction Jurisprudence | Page: 3
+
+If a contract's change order clauses are strictly enforced against the contractor, the contractor may seek recovery under 
+quantum meruit (unjust enrichment). This quasi-contractual remedy allows recovery of the reasonable value of services rendered 
+to prevent the owner from receiving a windfall. The contractor must prove that the owner requested and accepted the benefits 
+of the 23 change orders, and that it would be inequitable for the owner to retain them without payment.
+"""
+    },
+    {
+        "filename": "trade_secrets_misappropriation.txt",
+        "content": """TRADE SECRET MISAPPROPRIATION & DTSA INJUNCTIVE RELIEF
+Source: Intellectual Property Law Reporter | Page: 1
+
+TRADE SECRET STATUS OF CUSTOMER LISTS
+Under the Defend Trade Secrets Act (DTSA) (18 U.S.C. § 1836), customer lists, pricing databases, and deal pipelines 
+are eligible for trade secret status. The plaintiff must show: (1) the list contains information not generally known; 
+(2) the list has independent economic value; (3) the company used reasonable efforts to maintain secrecy. 
+Reasonable efforts include: password protection, encrypted cloud drives, strictly enforced NDAs, and disabling USB ports. 
+See Morlife, Inc. v. Perry (1997) (customer lists compiled through substantial time and expense qualify as trade secrets).
+
+MISAPPROPRIATION BY EMAIL TO PERSONAL ACCOUNT
+Source: Intellectual Property Law Reporter | Page: 2
+
+An executive emailing 5,000 contacts and pricing structures to a personal email address immediately prior to resignation 
+constitutes 'acquisition by improper means' and 'use without consent' under the DTSA. 
+In SunPower Corp. v. SolarCity Corp. (2012), the court held that copying commercial data to personal accounts 
+triggers clear misappropriation liability.
+
+DTSA INJUNCTIVE RELIEF AND ATTORNEY FEES
+Source: Intellectual Property Law Reporter | Page: 3
+
+Under 18 U.S.C. § 1836(b)(3), courts may grant an injunction to prevent actual or threatened misappropriation, 
+provided the injunction does not restrain a person from entering a lawful employment (complying with California public policy). 
+If the misappropriation is proved to be willful and malicious, the court may award: 
+(1) double exemplary damages; (2) reasonable attorney's fees to the prevailing party.
+"""
+    },
+    {
+        "filename": "arbitration_class_action_waiver.txt",
+        "content": """ARBITRATION CLAUSES & CLASS ACTION WAIVERS
+Source: Consumer Rights & Commercial Arbitration | Page: 1
+
+UNCONSCIONABILITY OF ONLINE MANDATORY ARBITRATION
+Online terms of service commonly require consumers to submit disputes to binding individual arbitration. 
+A clause is 'unconscionable' if it is both procedurally unconscionable (take-it-or-leave-it adhesion contract) 
+and substantively unconscionable (overly one-sided terms). When individual consumer recovery is small (e.g., $15/month) 
+and arbitration filing fees exceed the recovery value, consumers argue the clause is unconscionable as it effectively 
+forecloses any remedy.
+
+AT&T MOBILITY V. CONCEPCION (2011) AND THE FAA
+Source: Consumer Rights & Commercial Arbitration | Page: 2
+
+In AT&T Mobility LLC v. Concepcion (2011), the U.S. Supreme Court held that the Federal Arbitration Act (FAA) 
+preempts state laws that declare class-action waivers in arbitration agreements unconscionable. The Court held that 
+arbitration agreements must be enforced according to their terms, even if they foreclose class actions and make small-value claims 
+economically impractical to pursue individually.
+
+PUBLIC POLICY EXCEPTIONS AND STATUTORY CLAIMS
+Source: Consumer Rights & Commercial Arbitration | Page: 3
+
+Despite *Concepcion*, narrow challenges remain. Arbitration clauses may be invalidated if they contain terms that prevent 
+the vindication of statutory rights (the 'effective vindication' doctrine). However, the Supreme Court in American Express Co. 
+v. Italian Colors Restaurant (2013) held that the effective vindication exception does not apply simply because it is 
+economically irrational to arbitrate a small-value claim. Mandatory arbitration clauses with class action waivers remain 
+extremely robust in commercial and consumer contracts.
 """
     }
 ]
